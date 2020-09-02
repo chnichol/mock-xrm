@@ -1,0 +1,8 @@
+# Node Modules
+/node_modules
+
+# Distribution 
+/dist
+
+# debug 
+/debug
