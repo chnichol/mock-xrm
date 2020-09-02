@@ -1,5 +1,7 @@
+import executeGet from "./executeGet";
+
 const retrieve = (entityLogicalName, id, options = '') => {
-    return fetch(`/api/data/v9.0/${entityLogicalName}s(${id})/${options}`);
+    return executeGet(`/${entityLogicalName}s(${id})${options ? options : ''}`)();
 }
 
 export default retrieve;
