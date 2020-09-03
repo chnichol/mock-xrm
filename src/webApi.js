@@ -1,8 +1,8 @@
-import retrieve from './utility/retrieve';
-import create from './utility/create';
-import update from './utility/update';
-import del from './utility/delete';
-import retrieveMultiple from './utility/retrieveMultiple';
+import retrieve from './retrieve';
+import create from './create';
+import update from './update';
+import del from './delete';
+import retrieveMultiple from './retrieveMultiple';
 
 const webApi = {
     createRecord: create,

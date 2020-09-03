@@ -1,4 +1,4 @@
-import executeDelete from "./executeDelete";
+import executeDelete from "./utility/executeDelete";
 
 const del = (entityLogicalName, id) => {
     return executeDelete(`/${entityLogicalName}s(${id})`)();

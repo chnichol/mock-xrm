@@ -1,4 +1,4 @@
-import executePatch from "./executePatch";
+import executePatch from "./utility/executePatch";
 
 const update = (entityLogicalName, id, data) => {
     return executePatch(data)(`/${entityLogicalName}s(${id})`)({ 'content-type': 'application/json' });
