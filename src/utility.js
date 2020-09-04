@@ -1,8 +1,10 @@
+import globalContext from './globalContext';
+
 const utility = {
     closeProgressIndicator: () => {},
     getAllowedStatusTransitions: () => {},
     getEntityMetadata: () => {},
-    getGlobalContext: () => {},
+    getGlobalContext: globalContext,
     getLearningPathAttributeName: () => {},
     getPageContext: () => {},
     getResourceString: () => {},
