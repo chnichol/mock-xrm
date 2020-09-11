@@ -1,4 +1,5 @@
-const WEBAPI = '/api/data/v9.0';
+const LOCALHOST = 'http://localhost:3000';
+const WEBAPI = `${typeof(process) === 'object' ? LOCALHOST : ''}/api/data/v9.0`;
 const WHOAMI = 'WhoAmI';
 const GET = 'GET';
 const POST = 'POST';
