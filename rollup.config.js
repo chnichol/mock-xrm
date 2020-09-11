@@ -5,6 +5,7 @@ import replace from 'rollup-plugin-replace';
 import { terser } from 'rollup-plugin-terser';
 import strip from 'rollup-plugin-strip';
 import alias from 'rollup-plugin-alias';
+import { eslint } from "rollup-plugin-eslint";
 
 export default [
     {
@@ -16,6 +17,7 @@ export default [
             sourcemap: 'inline'
         },
         plugins: [
+            eslint(),
             resolve({
                 jsnext: true,
                 main: true,
@@ -41,6 +43,7 @@ export default [
             sourcemap: 'inline'
         },
         plugins: [
+            eslint(),
             alias({
                 debug: 'node_modules/debug/dist/debug.js',
             }),

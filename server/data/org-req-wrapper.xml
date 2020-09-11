@@ -1,0 +1,22 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body>
+        <ExecuteResponse xmlns="http://schemas.microsoft.com/xrm/2011/Contracts/Services">
+            <ExecuteResult xmlns:a="http://schemas.microsoft.com/xrm/2011/Contracts" 
+                xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+                <a:ResponseName>cre_ApplicationCustomAction</a:ResponseName>
+                <a:Results xmlns:b="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+                    <a:KeyValuePairOfstringanyType>
+                        <b:key>outputData</b:key>
+                        <b:value i:type="c:string" 
+                            xmlns:c="http://www.w3.org/2001/XMLSchema">STRING_DATA</b:value>
+                    </a:KeyValuePairOfstringanyType>
+                    <a:KeyValuePairOfstringanyType>
+                        <b:key>errorMessage</b:key>
+                        <b:value i:type="c:string" 
+                            xmlns:c="http://www.w3.org/2001/XMLSchema"/>
+                    </a:KeyValuePairOfstringanyType>
+                </a:Results>
+            </ExecuteResult>
+        </ExecuteResponse>
+    </s:Body>
+</s:Envelope>
