@@ -25,7 +25,8 @@ export default [
             }),
             commonjs(),
             babel({
-                exclude: 'node_modules/**',
+                exclude: 'node_modules/**', 
+                runtimeHelpers: true
             }),
             replace({
                 ENV: JSON.stringify(process.env.NODE_ENV || 'development'),
@@ -55,6 +56,7 @@ export default [
             commonjs(),
             babel({
                 exclude: 'node_modules/**',
+                runtimeHelpers: true
             }),
             strip(),
             terser()

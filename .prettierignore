@@ -1,0 +1,5 @@
+# Ignore artifacts:
+debug
+dist
+node_modules
+coverage
