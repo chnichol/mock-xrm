@@ -1,9 +1,10 @@
 import globalContext from './globalContext';
+import retrieveMetadata from './retrieveMetadataMemo';
 
 const utility = {
     closeProgressIndicator: () => {},
     getAllowedStatusTransitions: () => {},
-    getEntityMetadata: () => {},
+    getEntityMetadata: retrieveMetadata,
     getGlobalContext: globalContext,
     getLearningPathAttributeName: () => {},
     getPageContext: () => {},

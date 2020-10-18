@@ -12,7 +12,7 @@ export default [
         input: './src/Xrm.js',
         output: {
             file: 'debug/Xrm.debug.js',
-            name: 'Xrm',
+            name: 'Xrm1',
             format: 'iife',
             sourcemap: 'inline'
         },

@@ -1,5 +1,7 @@
 import organizationSettings from './organizationSettings';
 import userSettings from './userSettings';
+import clientUrl from './utility/clientUrl';
+import getCurrentAppName from './getCurrentAppName';
 
 const globalContextData = {
     client: {},
@@ -21,7 +23,10 @@ const globalContext = async () => {
 
     return {
         organizationSettings: settings[0],
-        userSettings: settings[1]
+        userSettings: settings[1],
+        getClientUrl: clientUrl,
+        isOnPremises: false,
+        getCurrentAppName: getCurrentAppName
     }
 }
 
