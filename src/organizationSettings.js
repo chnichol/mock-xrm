@@ -1,4 +1,4 @@
-import orgUniqueName from './orgUniqueName';
+import orgUniqueName from './utility/orgUniqueName';
 
 const organizationSettings = async () => {
     let orgName = await orgUniqueName();
