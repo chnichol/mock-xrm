@@ -1,4 +1,4 @@
-import memoize from './utility/memoize';
+import memoize from './memoize';
 
 const orgUniqueName = memoize(async () => {
     let result = await fetch('/tools/systemcustomization/systemCustomization.aspx?pid=05&web=true');
