@@ -2,8 +2,8 @@ import "@babel/polyfill";
 import isOnPremises from "../../src/utility/isOnPremises";
 
 describe("isOnPremises", () => {
-  it("https://e2poc.crm9.dynamics.com/ should be false", async (done) => {
-    const url = "https://e2poc.crm9.dynamics.com/";
+  it("https://somedyn.crm9.dynamics.com/ should be false", async (done) => {
+    const url = "https://somedyn.crm9.dynamics.com/";
     global.location = {
       href: url,
     };
