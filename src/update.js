@@ -1,7 +1,11 @@
 import executePatch from "./utility/executePatch";
+import retrieveMetadataMemo from './retrieveMetadataMemo';
 
-const update = (entityLogicalName, id, data) => {
-    return executePatch(data)(`/${entityLogicalName}s(${id})`)({ 'content-type': 'application/json' });
+const update = async (entityLogicalName, id, data) => {
+    let meta = await retrieveMetadataMemo(entityLogicalName);
+    await executePatch(data)(`/${meta.EntityMetadata.LogicalCollectionName}(${id})`)({ 'content-type': 'application/json' });
+
+    return Promise.resolve({entityType: entityLogicalName, id: id});
 }
 
 export default update;
