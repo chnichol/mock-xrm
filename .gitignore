@@ -6,3 +6,5 @@
 
 # codecov
 /coverage
+.fake
+.ionide

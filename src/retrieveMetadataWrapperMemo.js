@@ -1,5 +1,5 @@
 import memoize from './utility/memoize';
-import retrieveMetadata from './retrieveMetadata';
+import retrieveMetadata from './retrieveMetadataWrapper';
 
 const retrieveMetadataMemo = memoize(retrieveMetadata);
 

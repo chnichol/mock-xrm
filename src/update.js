@@ -1,5 +1,5 @@
 import executePatch from "./utility/executePatch";
-import retrieveMetadataMemo from './retrieveMetadataMemo';
+import retrieveMetadataMemo from './retrieveMetadataWrapperMemo';
 
 const update = async (entityLogicalName, id, data) => {
     let meta = await retrieveMetadataMemo(entityLogicalName);

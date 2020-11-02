@@ -1,5 +1,5 @@
 import executePost from "./utility/executePost";
-import retrieveMetadataMemo from './retrieveMetadataMemo';
+import retrieveMetadataMemo from './retrieveMetadataWrapperMemo';
 
 const create = async (entityLogicalName, data) => {
     let meta = await retrieveMetadataMemo(entityLogicalName);

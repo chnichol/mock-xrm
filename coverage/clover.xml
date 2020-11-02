@@ -1,76 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1603166849163" clover="3.2.0">
-  <project timestamp="1603166849163" name="All files">
-    <metrics statements="37" coveredstatements="34" conditionals="22" coveredconditionals="14" methods="12" coveredmethods="10" elements="71" coveredelements="58" complexity="0" loc="37" ncloc="37" packages="2" files="10" classes="10"/>
+<coverage generated="1603427190383" clover="3.2.0">
+  <project timestamp="1603427190383" name="All files">
+    <metrics statements="35" coveredstatements="32" conditionals="21" coveredconditionals="12" methods="17" coveredmethods="15" elements="73" coveredelements="59" complexity="0" loc="35" ncloc="35" packages="2" files="11" classes="11"/>
     <package name="src">
-      <metrics statements="21" coveredstatements="21" conditionals="14" coveredconditionals="9" methods="3" coveredmethods="3"/>
+      <metrics statements="17" coveredstatements="17" conditionals="13" coveredconditionals="7" methods="4" coveredmethods="4"/>
       <file name="consts.js" path="C:\Users\chnichol\source\repos\mock-xrm\src\consts.js">
         <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="2" methods="0" coveredmethods="0"/>
-        <line num="1" count="4" type="stmt"/>
-        <line num="2" count="4" type="cond" truecount="1" falsecount="1"/>
-        <line num="3" count="4" type="stmt"/>
-        <line num="4" count="4" type="stmt"/>
-        <line num="5" count="4" type="stmt"/>
-        <line num="6" count="4" type="stmt"/>
-        <line num="7" count="4" type="stmt"/>
-        <line num="8" count="4" type="cond" truecount="1" falsecount="1"/>
-        <line num="9" count="4" type="stmt"/>
-      </file>
-      <file name="retrieve.js" path="C:\Users\chnichol\source\repos\mock-xrm\src\retrieve.js">
-        <metrics statements="4" coveredstatements="4" conditionals="3" coveredconditionals="2" methods="1" coveredmethods="1"/>
-        <line num="4" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="6" count="1" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="9" count="1" type="stmt"/>
       </file>
       <file name="retrieveMetadata.js" path="C:\Users\chnichol\source\repos\mock-xrm\src\retrieveMetadata.js">
         <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
-        <line num="3" count="3" type="cond" truecount="1" falsecount="0"/>
-        <line num="4" count="3" type="stmt"/>
-        <line num="5" count="3" type="stmt"/>
+        <line num="3" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
       </file>
       <file name="retrieveMetadataMemo.js" path="C:\Users\chnichol\source\repos\mock-xrm\src\retrieveMetadataMemo.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="4" count="2" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
       </file>
       <file name="retrieveMultiple.js" path="C:\Users\chnichol\source\repos\mock-xrm\src\retrieveMultiple.js">
-        <metrics statements="4" coveredstatements="4" conditionals="6" coveredconditionals="4" methods="1" coveredmethods="1"/>
-        <line num="4" count="1" type="cond" truecount="2" falsecount="0"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="cond" truecount="2" falsecount="2"/>
+        <metrics statements="4" coveredstatements="4" conditionals="8" coveredconditionals="4" methods="3" coveredmethods="3"/>
+        <line num="5" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="6" count="1" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
+        <line num="9" count="1" type="cond" truecount="2" falsecount="4"/>
       </file>
     </package>
     <package name="src.utility">
-      <metrics statements="16" coveredstatements="13" conditionals="8" coveredconditionals="5" methods="9" coveredmethods="7"/>
+      <metrics statements="18" coveredstatements="15" conditionals="8" coveredconditionals="5" methods="13" coveredmethods="11"/>
+      <file name="composeM.js" path="C:\Users\chnichol\source\repos\mock-xrm\src\utility\composeM.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+      <file name="composePromises.js" path="C:\Users\chnichol\source\repos\mock-xrm\src\utility\composePromises.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
       <file name="executeFetch.js" path="C:\Users\chnichol\source\repos\mock-xrm\src\utility\executeFetch.js">
         <metrics statements="5" coveredstatements="4" conditionals="6" coveredconditionals="3" methods="4" coveredmethods="4"/>
-        <line num="5" count="5" type="stmt"/>
-        <line num="6" count="5" type="stmt"/>
-        <line num="7" count="5" type="cond" truecount="1" falsecount="1"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="cond" truecount="1" falsecount="1"/>
         <line num="8" count="0" type="stmt"/>
-        <line num="10" count="5" type="cond" truecount="1" falsecount="1"/>
+        <line num="10" count="2" type="cond" truecount="1" falsecount="1"/>
       </file>
       <file name="executeGet.js" path="C:\Users\chnichol\source\repos\mock-xrm\src\utility\executeGet.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="4" count="3" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
       </file>
       <file name="isOnPremises.js" path="C:\Users\chnichol\source\repos\mock-xrm\src\utility\isOnPremises.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="3" count="7" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
       </file>
       <file name="memoize.js" path="C:\Users\chnichol\source\repos\mock-xrm\src\utility\memoize.js">
         <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
-        <line num="1" count="3" type="stmt"/>
-        <line num="2" count="5" type="stmt"/>
-        <line num="4" count="5" type="stmt"/>
-        <line num="5" count="2" type="stmt"/>
-        <line num="6" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="7" count="2" type="stmt"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="7" count="1" type="stmt"/>
       </file>
       <file name="orgUniqueName.js" path="C:\Users\chnichol\source\repos\mock-xrm\src\utility\orgUniqueName.js">
         <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="3" count="3" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
         <line num="4" count="0" type="stmt"/>
         <line num="5" count="0" type="stmt"/>
       </file>

@@ -1,5 +1,5 @@
 import executeGet from "./utility/executeGet";
-import retrieveMetadataMemo from './retrieveMetadataMemo';
+import retrieveMetadataMemo from './retrieveMetadataWrapperMemo';
 
 const retrieve = async (entityLogicalName, id, options = '') => {
     let meta = await retrieveMetadataMemo(entityLogicalName);

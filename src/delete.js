@@ -1,5 +1,5 @@
 import executeDelete from "./utility/executeDelete";
-import retrieveMetadataMemo from './retrieveMetadataMemo';
+import retrieveMetadataMemo from './retrieveMetadataWrapperMemo';
 
 const del = async (entityLogicalName, id) => {
     let meta = await retrieveMetadataMemo(entityLogicalName);
