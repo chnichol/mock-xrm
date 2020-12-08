@@ -2,7 +2,7 @@ import { WEBAPI } from "../consts";
 import isOnPremises from "./isOnPremises";
 import orgUniqueName from "./orgUniqueName";
 
-const executeFetch = (method) => (headers) => (data) => (action) => {
+const executeFetch = (method) => (data) => (action) => async (headers) => {
   let orgName = "";
   if (isOnPremises()) {
     orgName = await orgUniqueName();

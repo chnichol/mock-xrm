@@ -1,6 +1,6 @@
 import memoize from './utility/memoize';
 import retrieveMetadata from './retrieveMetadataWrapper';
 
-const retrieveMetadataMemo = memoize(retrieveMetadata);
+const retrieveMetadataWrapperMemo = memoize(retrieveMetadata);
 
-export default retrieveMetadataMemo;
+export default retrieveMetadataWrapperMemo;
