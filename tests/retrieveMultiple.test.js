@@ -1,5 +1,5 @@
 import "@babel/polyfill";
-import retrieveMultiple from "../src/retrieveMultiple";
+import retrieveMultiple from "../src/retrieveMultipleWrapper";
 import fetchMock from "jest-fetch-mock";
 fetchMock.enableMocks();
 

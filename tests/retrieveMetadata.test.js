@@ -1,5 +1,5 @@
 import "@babel/polyfill";
-import retrieveMetadata from "../src/retrieveMetadata";
+import retrieveMetadata from "../src/retrieveMetadataWrapper";
 import fetchMock from "jest-fetch-mock";
 fetchMock.enableMocks();
 
