@@ -35,9 +35,11 @@
         "rollup-plugin-terser": "^5.2.0"
     },
     "dependencies": {
+        "core-js": "^2.6.12",
         "debug": "^4.1.1",
         "jest-fetch-mock": "^3.0.3",
         "js-cookie": "^2.2.1",
-        "node-fetch": "^2.6.1"
+        "node-fetch": "^2.6.1",
+        "whatwg-fetch": "^3.5.0"
     }
 }

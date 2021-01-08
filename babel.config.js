@@ -6,6 +6,8 @@ module.exports = {
         targets: {
           ie: "11",
         },
+        corejs: "2.6.12",
+        useBuiltIns: 'usage'
       },
     ],
   ],
