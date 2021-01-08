@@ -1,6 +1,6 @@
+import '@babel/polyfill';
 import webApi from './webApi';
 import utility from './utility';
-import formContext from './formContext/formContext';
 
 const xrm = {
   ActionCollectionBase: () => {},
