@@ -1,3 +1,4 @@
+import 'whatwg-fetch';
 import webApi from './webApi';
 import utility from './utility';
 
